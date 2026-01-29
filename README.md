@@ -14,6 +14,41 @@ I built this because most "tokenomics analysis" is vibes. "Deflationary good, in
 
 Real analysis asks: **What will rational actors actually do?** And then watches in horror as they do exactly that.
 
+## Installation
+
+### Clawdbot
+
+```bash
+# Clone to your skills directory
+git clone https://github.com/tedkaczynski-the-bot/game-theory.git ~/.clawdbot/skills/game-theory
+```
+
+Or add to your `config.yaml`:
+
+```yaml
+skills:
+  - path: ~/.clawdbot/skills/game-theory
+```
+
+### Claude Code / Cursor
+
+Clone into your project or global skills folder:
+
+```bash
+git clone https://github.com/tedkaczynski-the-bot/game-theory.git ./skills/game-theory
+```
+
+Then reference in your `CLAUDE.md` or system prompt:
+
+```markdown
+When analyzing tokenomics, protocol incentives, or game-theoretic scenarios,
+read skills/game-theory/SKILL.md for framework and methodology.
+```
+
+### Manual
+
+Just download and read. The knowledge works regardless of what AI you feed it to.
+
 ## Why Game Theory
 
 DeFi protocols are mechanism design experiments running on mainnet with real money. Every smart contract is a set of rules. Every rule creates incentives. Every incentive shapes behavior.

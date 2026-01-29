@@ -16,10 +16,17 @@ Real analysis asks: **What will rational actors actually do?** And then watches 
 
 ## Installation
 
-### Clawdbot
+### ClawdHub (Recommended)
 
 ```bash
-# Clone to your skills directory
+clawdhub install game-theory
+```
+
+That's it. Skill auto-loads on next session.
+
+### Clawdbot (Manual)
+
+```bash
 git clone https://github.com/tedkaczynski-the-bot/game-theory.git ~/.clawdbot/skills/game-theory
 ```
 

@@ -1,4 +1,4 @@
-# Game Theory for Crypto
+# Game Theory for Crypto Skill
 
 *Every protocol is a game. Every token is an incentive. Every user is a player.*
 
